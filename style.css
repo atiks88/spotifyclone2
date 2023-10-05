@@ -1,0 +1,453 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img:hover,
+p:hover,
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+    opacity: 0.8;
+}
+
+img:hover {
+    opacity: 1.5;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+p:hover,
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+/*  chat gpt  */
+/* Media query to hide anchor tag images on smaller screens */
+@media screen and (max-width: 748px) , (max-height: 1000px) {
+    .sidemiddlediv img {
+        display: none;
+    }
+}
+
+/* Media query to make sidebar width 100% on smaller screens */
+@media screen and (max-width: 1000px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+
+/* Adjust the image size for responsiveness */
+.sidemiddlediv img {
+    max-width: 100%; /* Make the images responsive */
+    height: auto;
+    /* Add any additional styling you need */
+}
+
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: calc(100% - 19.6%);
+    overflow-y: auto;
+    background-color: #000000;
+    z-index: 10;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+}
+
+.logo {
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+.leftopttop {
+    margin-top: 25%;
+    margin-left: 15%;
+    border-radius: 6px;
+}
+
+.leftopttop,
+a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+.opt {
+    margin-left: 28px;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.06em;
+    text-align: left;
+}
+
+.sidemiddle {
+
+    width: 209.99px;
+    height: 160.58px;
+    margin-top: 50.8px;
+    margin-left: 37.06px;
+}
+
+.leftplaylist {
+    width: 213.69px;
+    height: 277.92px;
+    margin-top: 46.32px;
+    margin-left: 10.06px;
+}
+
+.install {
+    width: 39.65px;
+    height: 29.65px;
+    margin-top: 56.06px;
+    margin-left: 37.06px;
+    padding: 1.24px, 1.24px, 1.24px, 1.24px;
+}
+
+.installopt {
+    margin-left: 28px;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.06em;
+    text-align: left;
+}
+
+.miniplaylist {
+    display: flex;
+}
+
+.divicelis {
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    bottom: 0;
+    background-color: #1ED760;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    z-index: 30;
+}
+
+.divip {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-right: 80px;
+}
+
+.diviimg {
+    margin-left: 5px;
+}
+
+.minplay1 {
+    position: fixed;
+    bottom: 30px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #181818;
+    width: 100%;
+    height: 15%;
+    border: 1px;
+    z-index: 20;
+}
+
+.nowplaying {
+    display: flex;
+}
+
+.playingimg {
+    flex-direction: row;
+    width: 62.97px;
+    height: 70px;
+    margin-top: 14px;
+    margin-left: 17.09px;
+}
+
+.dreamon {
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+
+.neffex {
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: #B3B3B3;
+
+}
+
+.songinfo {
+    justify-content: start;
+    margin-left: 17px;
+    margin-top: 34px;
+}
+
+.favicon {
+    margin-top: 36px;
+    margin-left: 14px;
+}
+
+.controlsbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerscontrols {
+    margin-top: 26px;
+    align-items: center;
+    justify-content: center;
+}
+
+.playerbtn {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.progressbar2 {
+    width: 511px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #C4C4C4;
+}
+
+.progressbar1 {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 580px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #535353;
+}
+
+.progressbar {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightoptions {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.rightbtn {
+    margin-left: 15px;
+}
+
+.rightvolbar {
+    width: 104.35px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #C4C4C4;
+    margin-left: 15px;
+}
+
+.maincontain {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 81%;
+    overflow-y: auto;
+    background: linear-gradient(180deg, #222222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #222222 90.34%, #3b3939 99.45%, rgba(18, 18, 18, 0) 100%);
+    z-index: 0;
+
+}
+
+.maincontain::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+}
+.navbarmain{
+    position: sticky;
+    top: 0;
+}
+.navbar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.goodmorning {
+    margin-left: 10%;
+    margin-top: 8%;
+    width: 85%;
+    height: 294px;
+    top: 112px;
+    left: 419px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    overflow: hidden;
+}
+
+.goodmorning-p {
+    flex-basis: 100%;
+    font-family: DM Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.goodmorninglist {
+    flex-basis: calc(33.33% - 20px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 101px;
+    margin-right: 20px;
+    border-radius: 4px;
+    background-color: #303030;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.goodh6 {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.Showsyoumightlike {
+    margin-left: 10%;
+    margin-top: 8%;
+    width: 98%;
+    height: 294px;
+    top: 112px;
+    left: 419px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    overflow: hidden;
+}
+
+.seeall1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seeall2 {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    width: 69px;
+    height: 22px;
+    color: #B3B3B3;
+}
+
+.showsyoumightlike-p {
+    margin-top: 3%;
+    justify-content: space-between;
+    flex-basis: 100%;
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 10%;
+}
+
+.showyml {
+    flex-basis: calc(33.33% - 20px);
+    display: flex;
+    margin-right: 20px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    justify-content: start;
+}
+
+.showsyoumightlikelist {
+    margin: 4px;
+    justify-content: center;
+    width: 120px;
+    align-items: center;
+    height: 170px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 4px;
+    border: #000000 solid 1px;
+    background-color: #4F4F4F;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    overflow: hidden;
+}
+
+.showlisimg {
+    height: 120px;
+    width: 120px;
+
+}
+
+.showh6 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.showh7 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #B3B3B3;
+}
